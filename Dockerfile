@@ -1,4 +1,6 @@
-FROM ubuntu:17.04
+FROM resin/rpi-raspbian:latest
+
+ENTRYPOINT []
 
 RUN apt-get update &&\
     apt-get install -y git-core subversion build-essential gcc-multilib \
